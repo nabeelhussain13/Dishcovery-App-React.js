@@ -1,0 +1,206 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+  color: #212121;
+}
+
+.app-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.app-name {
+  margin: 1.5rem 0.5rem 1rem 1rem;
+  text-align: center;
+}
+
+.search-bar {
+  width: 65%;
+}
+
+.initial-msg {
+  margin: 2rem 0;
+  width: 70%;
+}
+
+.card-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+.recipe-card {
+  margin: 1.5rem 1rem;
+  width: 16.5rem;
+  height: 32rem;
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.recipe-card:hover img {
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.loading-recipe-card {
+  margin: 1.5rem 1rem;
+  width: 16rem;
+  height: 23.5rem;
+}
+
+.recipe-title {
+  font-size: large;
+}
+
+.body-container {
+  margin: 1rem 0;
+}
+
+.type-title {
+  font-size: 18px;
+}
+.recipe-img {
+  width: 15.875rem;
+  height: 10.563rem;
+}
+
+.result-msg {
+  font-size: larger;
+  margin: 2rem 0 0.5rem 0;
+}
+
+.detail-container {
+  width: 100%;
+  margin: 0 auto 2rem auto;
+}
+
+.card-info {
+  max-width: 80%;
+  margin: 0 auto;
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.info-img {
+  height: 100%;
+}
+
+.info-body {
+  padding-left: 2rem;
+}
+
+.one-btn {
+  margin-left: 1rem;
+}
+.detail-name {
+  font-size: xx-large;
+}
+
+.detail-category {
+  font-size: larger;
+  margin-top: 1rem;
+}
+
+.detail-tags {
+  font-size: larger;
+  margin: 1rem 0 1rem 0;
+  width: 45%;
+  display: flex;
+}
+
+.tags {
+  margin-right: 0.625rem;
+  background-color: #95d5b2;
+  color: #1b4332;
+}
+
+.detail-btns {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.app-icon {
+  font-size: 40px;
+  margin-bottom: 6px;
+}
+
+.not-found-text {
+  margin: 2rem auto 0.5rem auto;
+  font-size: x-large;
+}
+
+.ingredients-title {
+  width: 80%;
+  margin: 1.5rem auto;
+  font-size: xx-large;
+}
+
+.ing-ul {
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.instructions-title {
+  width: 80%;
+  margin: 1.5rem auto;
+  font-size: xx-large;
+}
+
+.instruction-body {
+  width: 80%;
+  margin: 1.5rem auto;
+  margin-bottom: 2rem;
+}
+
+.my-btn {
+  background-color: #2d6a4f;
+  border: none;
+  color: #fff;
+}
+.my-btn:hover {
+  background-color: #95d5b2;
+  color: #1b4332;
+}
+
+.form-control:focus {
+  border-color: #2d6a4f;
+  box-shadow: 0 0 0 0.2rem rgba(45, 106, 79, 0.25);
+}
+
+@media screen and (max-width: 1001px) {
+  .card-container {
+    justify-content: center;
+  }
+
+  .search-bar {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .card-info {
+    max-width: 70%;
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .search-bar {
+    width: 90%;
+  }
+}
