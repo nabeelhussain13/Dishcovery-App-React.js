@@ -134,11 +134,6 @@ body {
   justify-content: flex-start;
 }
 
-.app-icon {
-  font-size: 40px;
-  margin-bottom: 6px;
-}
-
 .not-found-text {
   margin: 2rem auto 0.5rem auto;
   font-size: x-large;
@@ -195,12 +190,36 @@ body {
 @media screen and (max-width: 770px) {
   .card-info {
     max-width: 70%;
-    margin-left: 10%;
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 625px) {
   .search-bar {
+    width: 90%;
+  }
+  .card-info {
+    max-width: 85%;
+  }
+
+  .detail-tags {
+    flex-wrap: wrap;
+    width: 90%;
+  }
+
+  .tags {
+    margin-top: 10px;
+  }
+  .detail-btns {
+    flex-direction: column;
+  }
+  .detail-btns button {
+    margin-top: 1rem;
+  }
+  .one-btn {
+    margin-left: 0;
+  }
+
+  .initial-msg {
     width: 90%;
   }
 }
